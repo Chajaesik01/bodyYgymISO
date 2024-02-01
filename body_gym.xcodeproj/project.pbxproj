@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0109A4E2B63732A00257F4F /* body_gymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0109A4D2B63732A00257F4F /* body_gymApp.swift */; };
+		A0109A502B63732A00257F4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0109A4F2B63732A00257F4F /* ContentView.swift */; };
+		A0109A522B63733500257F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0109A512B63733500257F4F /* Assets.xcassets */; };
+		A0109A562B63733500257F4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0109A552B63733500257F4F /* Preview Assets.xcassets */; };
+		A0109A602B63733500257F4F /* body_gymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0109A5F2B63733500257F4F /* body_gymTests.swift */; };
+		A0109A6A2B63733500257F4F /* body_gymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0109A692B63733500257F4F /* body_gymUITests.swift */; };
+		A0109A6C2B63733500257F4F /* body_gymUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0109A6B2B63733500257F4F /* body_gymUITestsLaunchTests.swift */; };
+		A025C5912B63D87E001A1C80 /* bodygym.png in Resources */ = {isa = PBXBuildFile; fileRef = A025C5902B63D87D001A1C80 /* bodygym.png */; };
+		A0CBF9812B63B50400614BCA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9802B63B50400614BCA /* RegisterViewController.swift */; };
+		A0CBF9832B63B55100614BCA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9822B63B55100614BCA /* MainTabBarController.swift */; };
+		A0CBF9852B63B57500614BCA /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9842B63B57500614BCA /* HomeMainViewController.swift */; };
+		A0CBF9872B63B69F00614BCA /* BoardMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9862B63B69F00614BCA /* BoardMainViewController.swift */; };
+		A0CBF9892B63B6BD00614BCA /* ChatMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9882B63B6BD00614BCA /* ChatMainViewController.swift */; };
+		A0CBF98B2B63B6E600614BCA /* CalendarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF98A2B63B6E600614BCA /* CalendarMainViewController.swift */; };
+		A0CBF98D2B63B70900614BCA /* SettingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF98C2B63B70900614BCA /* SettingMainViewController.swift */; };
+		A0CBF98F2B63B73E00614BCA /* CreatPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF98E2B63B73E00614BCA /* CreatPostViewController.swift */; };
+		A0CBF9912B63B76E00614BCA /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9902B63B76E00614BCA /* PostDetailViewController.swift */; };
+		A0CBF9932B63B93200614BCA /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CBF9922B63B93200614BCA /* ChatRoomViewController.swift */; };
+		A0CBF99A2B63C0CC00614BCA /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9942B63C0CA00614BCA /* setting.png */; };
+		A0CBF99B2B63C0CC00614BCA /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9952B63C0CA00614BCA /* calendar.png */; };
+		A0CBF99C2B63C0CC00614BCA /* ic_qr_code_scanner_24.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9962B63C0CB00614BCA /* ic_qr_code_scanner_24.png */; };
+		A0CBF99D2B63C0CC00614BCA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9972B63C0CB00614BCA /* home.png */; };
+		A0CBF99E2B63C0CC00614BCA /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9982B63C0CB00614BCA /* chat.png */; };
+		A0CBF99F2B63C0CC00614BCA /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9992B63C0CB00614BCA /* board.png */; };
+		A0CBF9A12B63C0CC00614BCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0CBF9A02B63C0CC00614BCA /* GoogleService-Info.plist */; };
+		CF143EDF35A653BF7B58B679 /* Pods_body_gymTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660B23C8500D6832FC7D1DC1 /* Pods_body_gymTests.framework */; };
+		D55C2ED80AC5CB72B58F54AB /* Pods_body_gym_body_gymUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D84E7FDFEE3DD1140FD474 /* Pods_body_gym_body_gymUITests.framework */; };
+		E6B79564A9F03EA9B74A7055 /* Pods_body_gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAADA5EE19A22177CAEB56 /* Pods_body_gym.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0109A5C2B63733500257F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0109A422B63732A00257F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0109A492B63732A00257F4F;
+			remoteInfo = body_gym;
+		};
+		A0109A662B63733500257F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0109A422B63732A00257F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0109A492B63732A00257F4F;
+			remoteInfo = body_gym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC2027CD517573B76F4EA61 /* Pods-body_gymTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gymTests.debug.xcconfig"; path = "Target Support Files/Pods-body_gymTests/Pods-body_gymTests.debug.xcconfig"; sourceTree = "<group>"; };
+		534412A71EAC46067ED23F9F /* Pods-body_gym-body_gymUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gym-body_gymUITests.debug.xcconfig"; path = "Target Support Files/Pods-body_gym-body_gymUITests/Pods-body_gym-body_gymUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		660B23C8500D6832FC7D1DC1 /* Pods_body_gymTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_body_gymTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70462CEC0AE9D566E3B790BD /* Pods-body_gym-body_gymUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gym-body_gymUITests.release.xcconfig"; path = "Target Support Files/Pods-body_gym-body_gymUITests/Pods-body_gym-body_gymUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8262D303C164CB7F0329DDBD /* Pods-body_gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gym.release.xcconfig"; path = "Target Support Files/Pods-body_gym/Pods-body_gym.release.xcconfig"; sourceTree = "<group>"; };
+		885ADB40E0053F954170F67B /* Pods-body_gymTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gymTests.release.xcconfig"; path = "Target Support Files/Pods-body_gymTests/Pods-body_gymTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE21262B53B1017E457364C /* Pods-body_gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-body_gym.debug.xcconfig"; path = "Target Support Files/Pods-body_gym/Pods-body_gym.debug.xcconfig"; sourceTree = "<group>"; };
+		A0109A4A2B63732A00257F4F /* body_gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = body_gym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0109A4D2B63732A00257F4F /* body_gymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = body_gymApp.swift; sourceTree = "<group>"; };
+		A0109A4F2B63732A00257F4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0109A512B63733500257F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0109A532B63733500257F4F /* body_gym.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = body_gym.entitlements; sourceTree = "<group>"; };
+		A0109A552B63733500257F4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0109A5B2B63733500257F4F /* body_gymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = body_gymTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0109A5F2B63733500257F4F /* body_gymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = body_gymTests.swift; sourceTree = "<group>"; };
+		A0109A652B63733500257F4F /* body_gymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = body_gymUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0109A692B63733500257F4F /* body_gymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = body_gymUITests.swift; sourceTree = "<group>"; };
+		A0109A6B2B63733500257F4F /* body_gymUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = body_gymUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A025C5902B63D87D001A1C80 /* bodygym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bodygym.png; path = ../../../Downloads/bodygym.png; sourceTree = "<group>"; };
+		A0B67DB02B652E89008D99EA /* body-gym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "body-gym-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A0CBF9802B63B50400614BCA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A0CBF9822B63B55100614BCA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A0CBF9842B63B57500614BCA /* HomeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
+		A0CBF9862B63B69F00614BCA /* BoardMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardMainViewController.swift; sourceTree = "<group>"; };
+		A0CBF9882B63B6BD00614BCA /* ChatMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMainViewController.swift; sourceTree = "<group>"; };
+		A0CBF98A2B63B6E600614BCA /* CalendarMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMainViewController.swift; sourceTree = "<group>"; };
+		A0CBF98C2B63B70900614BCA /* SettingMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMainViewController.swift; sourceTree = "<group>"; };
+		A0CBF98E2B63B73E00614BCA /* CreatPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatPostViewController.swift; sourceTree = "<group>"; };
+		A0CBF9902B63B76E00614BCA /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		A0CBF9922B63B93200614BCA /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		A0CBF9942B63C0CA00614BCA /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting.png; path = ../../../Downloads/setting.png; sourceTree = "<group>"; };
+		A0CBF9952B63C0CA00614BCA /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../../Downloads/calendar.png; sourceTree = "<group>"; };
+		A0CBF9962B63C0CB00614BCA /* ic_qr_code_scanner_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_qr_code_scanner_24.png; path = ../../../Downloads/ic_qr_code_scanner_24.png; sourceTree = "<group>"; };
+		A0CBF9972B63C0CB00614BCA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../../Downloads/home.png; sourceTree = "<group>"; };
+		A0CBF9982B63C0CB00614BCA /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = ../../../Downloads/chat.png; sourceTree = "<group>"; };
+		A0CBF9992B63C0CB00614BCA /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = ../../../Downloads/board.png; sourceTree = "<group>"; };
+		A0CBF9A02B63C0CC00614BCA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBEAADA5EE19A22177CAEB56 /* Pods_body_gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_body_gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D84E7FDFEE3DD1140FD474 /* Pods_body_gym_body_gymUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_body_gym_body_gymUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0109A472B63732A00257F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B79564A9F03EA9B74A7055 /* Pods_body_gym.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A582B63733500257F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF143EDF35A653BF7B58B679 /* Pods_body_gymTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A622B63733500257F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55C2ED80AC5CB72B58F54AB /* Pods_body_gym_body_gymUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B12EFC89D17CBDAEE2A946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FE21262B53B1017E457364C /* Pods-body_gym.debug.xcconfig */,
+				8262D303C164CB7F0329DDBD /* Pods-body_gym.release.xcconfig */,
+				534412A71EAC46067ED23F9F /* Pods-body_gym-body_gymUITests.debug.xcconfig */,
+				70462CEC0AE9D566E3B790BD /* Pods-body_gym-body_gymUITests.release.xcconfig */,
+				1CC2027CD517573B76F4EA61 /* Pods-body_gymTests.debug.xcconfig */,
+				885ADB40E0053F954170F67B /* Pods-body_gymTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79F81BB80F0FADF529782EE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAADA5EE19A22177CAEB56 /* Pods_body_gym.framework */,
+				F6D84E7FDFEE3DD1140FD474 /* Pods_body_gym_body_gymUITests.framework */,
+				660B23C8500D6832FC7D1DC1 /* Pods_body_gymTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0109A412B63732A00257F4F = {
+			isa = PBXGroup;
+			children = (
+				A0109A4C2B63732A00257F4F /* body_gym */,
+				A0109A5E2B63733500257F4F /* body_gymTests */,
+				A0109A682B63733500257F4F /* body_gymUITests */,
+				A0109A4B2B63732A00257F4F /* Products */,
+				34B12EFC89D17CBDAEE2A946 /* Pods */,
+				79F81BB80F0FADF529782EE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0109A4B2B63732A00257F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0109A4A2B63732A00257F4F /* body_gym.app */,
+				A0109A5B2B63733500257F4F /* body_gymTests.xctest */,
+				A0109A652B63733500257F4F /* body_gymUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0109A4C2B63732A00257F4F /* body_gym */ = {
+			isa = PBXGroup;
+			children = (
+				A0B67DB02B652E89008D99EA /* body-gym-Info.plist */,
+				A0109A4D2B63732A00257F4F /* body_gymApp.swift */,
+				A025C5902B63D87D001A1C80 /* bodygym.png */,
+				A0CBF9992B63C0CB00614BCA /* board.png */,
+				A0CBF9952B63C0CA00614BCA /* calendar.png */,
+				A0CBF9982B63C0CB00614BCA /* chat.png */,
+				A0CBF9972B63C0CB00614BCA /* home.png */,
+				A0CBF9A02B63C0CC00614BCA /* GoogleService-Info.plist */,
+				A0CBF9962B63C0CB00614BCA /* ic_qr_code_scanner_24.png */,
+				A0CBF9942B63C0CA00614BCA /* setting.png */,
+				A0109A4F2B63732A00257F4F /* ContentView.swift */,
+				A0109A512B63733500257F4F /* Assets.xcassets */,
+				A0109A532B63733500257F4F /* body_gym.entitlements */,
+				A0109A542B63733500257F4F /* Preview Content */,
+				A0CBF9802B63B50400614BCA /* RegisterViewController.swift */,
+				A0CBF9822B63B55100614BCA /* MainTabBarController.swift */,
+				A0CBF9842B63B57500614BCA /* HomeMainViewController.swift */,
+				A0CBF9862B63B69F00614BCA /* BoardMainViewController.swift */,
+				A0CBF9882B63B6BD00614BCA /* ChatMainViewController.swift */,
+				A0CBF98A2B63B6E600614BCA /* CalendarMainViewController.swift */,
+				A0CBF98C2B63B70900614BCA /* SettingMainViewController.swift */,
+				A0CBF98E2B63B73E00614BCA /* CreatPostViewController.swift */,
+				A0CBF9902B63B76E00614BCA /* PostDetailViewController.swift */,
+				A0CBF9922B63B93200614BCA /* ChatRoomViewController.swift */,
+			);
+			path = body_gym;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		A0109A542B63733500257F4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0109A552B63733500257F4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0109A5E2B63733500257F4F /* body_gymTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0109A5F2B63733500257F4F /* body_gymTests.swift */,
+			);
+			path = body_gymTests;
+			sourceTree = "<group>";
+		};
+		A0109A682B63733500257F4F /* body_gymUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0109A692B63733500257F4F /* body_gymUITests.swift */,
+				A0109A6B2B63733500257F4F /* body_gymUITestsLaunchTests.swift */,
+			);
+			path = body_gymUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0109A492B63732A00257F4F /* body_gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0109A6F2B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gym" */;
+			buildPhases = (
+				1AC4D3EEB466179A45D4F72B /* [CP] Check Pods Manifest.lock */,
+				A0109A462B63732A00257F4F /* Sources */,
+				A0109A472B63732A00257F4F /* Frameworks */,
+				A0109A482B63732A00257F4F /* Resources */,
+				F622C36B065ADF28C8EBCC23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = body_gym;
+			productName = body_gym;
+			productReference = A0109A4A2B63732A00257F4F /* body_gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0109A5A2B63733500257F4F /* body_gymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0109A722B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gymTests" */;
+			buildPhases = (
+				03D5FA7EBEF73AA616BBD65E /* [CP] Check Pods Manifest.lock */,
+				A0109A572B63733500257F4F /* Sources */,
+				A0109A582B63733500257F4F /* Frameworks */,
+				A0109A592B63733500257F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0109A5D2B63733500257F4F /* PBXTargetDependency */,
+			);
+			name = body_gymTests;
+			productName = body_gymTests;
+			productReference = A0109A5B2B63733500257F4F /* body_gymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0109A642B63733500257F4F /* body_gymUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0109A752B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gymUITests" */;
+			buildPhases = (
+				5650D0516BD55CCD119AC7B2 /* [CP] Check Pods Manifest.lock */,
+				A0109A612B63733500257F4F /* Sources */,
+				A0109A622B63733500257F4F /* Frameworks */,
+				A0109A632B63733500257F4F /* Resources */,
+				EB0C7EF795FFB0E31030942F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0109A672B63733500257F4F /* PBXTargetDependency */,
+			);
+			name = body_gymUITests;
+			productName = body_gymUITests;
+			productReference = A0109A652B63733500257F4F /* body_gymUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0109A422B63732A00257F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A0109A492B63732A00257F4F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A0109A5A2B63733500257F4F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A0109A492B63732A00257F4F;
+					};
+					A0109A642B63733500257F4F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A0109A492B63732A00257F4F;
+					};
+				};
+			};
+			buildConfigurationList = A0109A452B63732A00257F4F /* Build configuration list for PBXProject "body_gym" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0109A412B63732A00257F4F;
+			productRefGroup = A0109A4B2B63732A00257F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0109A492B63732A00257F4F /* body_gym */,
+				A0109A5A2B63733500257F4F /* body_gymTests */,
+				A0109A642B63733500257F4F /* body_gymUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0109A482B63732A00257F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0109A562B63733500257F4F /* Preview Assets.xcassets in Resources */,
+				A0CBF99B2B63C0CC00614BCA /* calendar.png in Resources */,
+				A0CBF9A12B63C0CC00614BCA /* GoogleService-Info.plist in Resources */,
+				A0CBF99D2B63C0CC00614BCA /* home.png in Resources */,
+				A0CBF99E2B63C0CC00614BCA /* chat.png in Resources */,
+				A0CBF99F2B63C0CC00614BCA /* board.png in Resources */,
+				A0109A522B63733500257F4F /* Assets.xcassets in Resources */,
+				A0CBF99A2B63C0CC00614BCA /* setting.png in Resources */,
+				A0CBF99C2B63C0CC00614BCA /* ic_qr_code_scanner_24.png in Resources */,
+				A025C5912B63D87E001A1C80 /* bodygym.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A592B63733500257F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A632B63733500257F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D5FA7EBEF73AA616BBD65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-body_gymTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC4D3EEB466179A45D4F72B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-body_gym-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5650D0516BD55CCD119AC7B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-body_gym-body_gymUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0C7EF795FFB0E31030942F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-body_gym-body_gymUITests/Pods-body_gym-body_gymUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-body_gym-body_gymUITests/Pods-body_gym-body_gymUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-body_gym-body_gymUITests/Pods-body_gym-body_gymUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F622C36B065ADF28C8EBCC23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-body_gym/Pods-body_gym-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-body_gym/Pods-body_gym-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-body_gym/Pods-body_gym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0109A462B63732A00257F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CBF9872B63B69F00614BCA /* BoardMainViewController.swift in Sources */,
+				A0CBF9892B63B6BD00614BCA /* ChatMainViewController.swift in Sources */,
+				A0CBF98B2B63B6E600614BCA /* CalendarMainViewController.swift in Sources */,
+				A0CBF9912B63B76E00614BCA /* PostDetailViewController.swift in Sources */,
+				A0CBF9812B63B50400614BCA /* RegisterViewController.swift in Sources */,
+				A0109A502B63732A00257F4F /* ContentView.swift in Sources */,
+				A0CBF9852B63B57500614BCA /* HomeMainViewController.swift in Sources */,
+				A0CBF98F2B63B73E00614BCA /* CreatPostViewController.swift in Sources */,
+				A0CBF98D2B63B70900614BCA /* SettingMainViewController.swift in Sources */,
+				A0CBF9832B63B55100614BCA /* MainTabBarController.swift in Sources */,
+				A0109A4E2B63732A00257F4F /* body_gymApp.swift in Sources */,
+				A0CBF9932B63B93200614BCA /* ChatRoomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A572B63733500257F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0109A602B63733500257F4F /* body_gymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0109A612B63733500257F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0109A6C2B63733500257F4F /* body_gymUITestsLaunchTests.swift in Sources */,
+				A0109A6A2B63733500257F4F /* body_gymUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0109A5D2B63733500257F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0109A492B63732A00257F4F /* body_gym */;
+			targetProxy = A0109A5C2B63733500257F4F /* PBXContainerItemProxy */;
+		};
+		A0109A672B63733500257F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0109A492B63732A00257F4F /* body_gym */;
+			targetProxy = A0109A662B63733500257F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0109A6D2B63733500257F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0109A6E2B63733500257F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A0109A702B63733500257F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE21262B53B1017E457364C /* Pods-body_gym.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = body_gym/body_gym.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"body_gym/Preview Content\"";
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "body-gym-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera for QR code scanner";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0109A712B63733500257F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8262D303C164CB7F0329DDBD /* Pods-body_gym.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = body_gym/body_gym.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"body_gym/Preview Content\"";
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "body-gym-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera for QR code scanner";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0109A732B63733500257F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC2027CD517573B76F4EA61 /* Pods-body_gymTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/body_gym.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/body_gym";
+			};
+			name = Debug;
+		};
+		A0109A742B63733500257F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885ADB40E0053F954170F67B /* Pods-body_gymTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/body_gym.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/body_gym";
+			};
+			name = Release;
+		};
+		A0109A762B63733500257F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534412A71EAC46067ED23F9F /* Pods-body_gym-body_gymUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gymUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = body_gym;
+			};
+			name = Debug;
+		};
+		A0109A772B63733500257F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70462CEC0AE9D566E3B790BD /* Pods-body_gym-body_gymUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXS3LW45X9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myapp.body-gymUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = body_gym;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0109A452B63732A00257F4F /* Build configuration list for PBXProject "body_gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0109A6D2B63733500257F4F /* Debug */,
+				A0109A6E2B63733500257F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0109A6F2B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0109A702B63733500257F4F /* Debug */,
+				A0109A712B63733500257F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0109A722B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0109A732B63733500257F4F /* Debug */,
+				A0109A742B63733500257F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0109A752B63733500257F4F /* Build configuration list for PBXNativeTarget "body_gymUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0109A762B63733500257F4F /* Debug */,
+				A0109A772B63733500257F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0109A422B63732A00257F4F /* Project object */;
+}
