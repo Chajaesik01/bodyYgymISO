@@ -73,3 +73,6 @@ https://vitamin3000.tistory.com/category/IOS%20%EC%95%B1%20%EA%B0%9C%EB%B0%9C
 
 ![메시지](./image/message.png)
 
+# 홍보 포스터 
+![홍보1](./image/promotion1.png)
+![홍보2](./image/promotion2.png)
